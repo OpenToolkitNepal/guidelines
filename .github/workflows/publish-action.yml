@@ -2,8 +2,7 @@ name: Publish on GitHub Pages
 
 on:
   push:
-    tags:
-      - 'v*'
+      branches: [ main ]
 
 jobs:
   build:
